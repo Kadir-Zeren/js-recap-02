@@ -121,3 +121,73 @@ let artirNew = number1++;
 console.log(artirNew);
 console.log(artirNew);
 console.log(number1);
+
+let newSayi = ++number1;
+console.log(newSayi);
+
+let nums1 = 14;
+let nums2 = 17;
+nums2 += nums1;
+console.log(nums2);
+
+const num16 = 27;
+console.log(num16 == 27);
+console.log(num16 == "27");
+console.log(num16 === 27);
+console.log(num16 === "27");
+
+// const user1 = prompt("Lutfen bir sayi giririniz:");
+// const user2 = prompt("Lutfen bir sayi giririniz:");
+// console.log(user1);
+// console.log(user2);
+// const isSame = user1 == user2;
+// console.log(isSame);
+
+console.log(true == 1);
+console.log(null == undefined);
+
+console.log(true === 1);
+console.log(null === undefined);
+
+console.log(15 != "15");
+console.log(15 !== "15");
+
+console.log(15 > 5);
+console.log(15 < 5);
+
+console.log("15" > 5);
+console.log("a" > "b");
+
+console.log("a".charCodeAt());
+console.log("b".charCodeAt());
+console.log("a" > "A");
+
+console.log(15 >= 15);
+console.log(15 <= 15);
+console.log(15 >= 16);
+
+console.log(15 >= "15");
+console.log("14" <= "15");
+
+console.log(true && true);
+console.log(" " && true);
+
+console.log(5 && "Merhaba");
+console.log(0 && "Dunya");
+
+console.log(5 && 0);
+console.log(true && false);
+
+console.log(true || false);
+console.log(5 || 15);
+console.log(5 || 0);
+console.log("" || "Merhaba");
+console.log("" || 0);
+
+console.log(!true);
+console.log(!false);
+console.log(!0);
+console.log(!5);
+
+const karsilastirma = ("Merhaba" && "dunya") || false || (28 && 67 && !false);
+console.log(karsilastirma);
